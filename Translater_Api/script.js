@@ -11,5 +11,5 @@ for(let lang in languages)
 
 
      fromLang.value="tr-TR";
-     ToLang.value="en-GB";
+     ToLang.value="en-GB"
 }
