@@ -3,13 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
 
+<div class="container">
+        <div class="box">
+              <ul class="controls">
+                    <li class="left">
+                        <select  id="from-lang"></select>
+                    </li>
+                    <li class="middle"><i class="fas fa-exchange-alt"></i></li>
+                    <li class="right">
+                        <select  id="to-lang"></select>
+                   </li>
+              </ul>
+              <div class="text-controls">
+                    <textarea class="from-text" id="from-text" placeholder="Enter Text"></textarea>
+                    <textarea class="to-text" id="to-text" placeholder="translation" readonly disabled></textarea>
+            </div>
+       </div>
+    <button id="BtnTranslate">Translate</button>   
+</div>
 
-<select  id="from-lang"></select>
-<select  id="to-lang"></select>
 
 
 
