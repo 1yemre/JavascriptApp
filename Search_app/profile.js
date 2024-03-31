@@ -12,7 +12,7 @@ class Profile{
          const profile=await profileResponse.json();
 
          return {
-              profile
+              profile 
          }
       }
 }

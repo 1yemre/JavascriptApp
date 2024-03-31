@@ -1,6 +1,6 @@
 const profile=new Profile ();
 const searchProfile=document.querySelector("#searchProfile");
-
+const ui=new UI();
 
 
 searchProfile.addEventListener("keyup",(event)=>{
@@ -13,7 +13,7 @@ searchProfile.addEventListener("keyup",(event)=>{
             {
 
             }else{
-                 console.log(res.profile[0]);
+                 ui.showProfile(res.profile[0]);
             }
         })
    }
